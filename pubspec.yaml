@@ -1,0 +1,97 @@
+name: kit
+description: flutterbasickit Flutter
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_slidable: ^3.0.1
+  flutter_snake_navigationbar: ^0.6.1
+  flutter_spinkit: ^5.1.0
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_star: ^1.0.2
+  flutter_svg: ^1.1.1+1
+  flutter_swiper_null_safety: ^1.0.2
+  fluttertoast: ^8.0.9
+  form_field_validator: ^1.1.0
+  geocoding: ^2.0.4
+  geolocator: ^11.0.0
+  cupertino_icons: ^1.0.2
+  logger: ^2.0.2+1
+  shared_preferences: ^2.0.15
+  page_transition: ^2.0.9
+  image_picker: ^1.0.2
+  image_cropper: ^5.0.1
+  intl: ^0.18.0
+  webview_flutter: ^4.0.1
+  email_validator: ^2.1.16
+  r_dart_library: ^0.4.1
+  retrofit: ^4.1.0
+  dio: ^5.4.1
+  built_value: ^8.4.2
+  provider: ^6.0.3
+  get: ^4.6.5
+  json_annotation: ^4.7.0
+  wechat_assets_picker: ^8.8.1+1
+  infinite_scroll_pagination: ^4.0.0
+  liquid_pull_to_refresh: ^3.0.1
+  firebase_core: ^2.4.1
+  firebase_messaging: ^14.2.1
+  firebase_storage: ^11.0.3
+  flutter_local_notifications: ^16.3.2
+  firebase_auth: ^4.2.5
+  cloud_firestore: ^4.3.1
+  grouped_list: ^5.1.2
+  equatable: ^2.0.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  retrofit_generator: ^8.1.0
+  build_runner: ^2.3.3
+  json_serializable: ^6.5.4
+  built_value_generator: ^8.4.2
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+  - assets/images/btn_check_off.png
+  - assets/images/btn_check_on.png
+  - assets/images/btn_photo_blue.png
+  - assets/images/btn_send.png
+  - assets/images/event_detail_img.png
+  - assets/images/event_list_img.png
+  - assets/images/head_btn_back.png
+  - assets/images/head_btn_back_white.png
+  - assets/images/head_btn_close.png
+  - assets/images/head_btn_close_wh.png
+  - assets/images/head_btn_search.png
+  - assets/images/i_calendar.png
+  - assets/images/i_profile.png
+  - assets/images/login_i_03.png
+  - assets/images/login_i_04.png
+  - assets/images/login_i_05.png
+  - assets/images/login_i_06.png
+  - assets/images/radio_off.png
+  - assets/images/radio_on.png
+  - assets/images/web_hi_res_512.png
+  fonts:
+  - family: nanum
+    fonts:
+    - asset: assets/fonts/nanum/nanumsquarebold.ttf
+    - asset: assets/fonts/nanum/nanumsquareextrabold.ttf
+    - asset: assets/fonts/nanum/nanumsquarelight.ttf
+    - asset: assets/fonts/nanum/nanumsquareregular.ttf
+flr:
+  core_version: 3.2.0
+  dartfmt_line_length: 80
+  assets:
+  - assets/images
+  fonts:
+  - assets/fonts
+flutter_intl:
+  enabled: true
